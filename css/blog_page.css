@@ -1,0 +1,243 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+img {
+  vertical-align: middle;
+}
+body {
+  font-family: "Poppins", serif;
+}
+/* header part start */
+#nav {
+  height: 92px;
+  background-color: #1c1e53;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+}
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+.nav_main {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav_menu ul {
+  display: flex;
+  align-items: center;
+  gap: 0 32px;
+}
+.nav_menu ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #bbbbcb;
+}
+.nav_menu ul li:hover a {
+  color: #fff;
+}
+
+.nav_menu ul li:last-child a {
+  padding: 16px 48px;
+  border: 4px solid rgba(244, 246, 252, 0.203);
+  border-radius: 41px;
+  margin-left: 16px;
+}
+/* header part end */
+
+/* banner part start */
+#banner {
+  padding-top: 220px;
+}
+.ban_main {
+  text-align: center;
+}
+.ban_main h1 {
+  width: 75%;
+  margin: 0 auto;
+  padding-bottom: 16px;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+}
+.ban_main span {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+}
+.ban_main .name {
+  color: rgba(40, 41, 56, 0.873);
+  padding-right: 6px;
+}
+.ban_main img {
+  width: 100%;
+  padding-top: 32px;
+  padding-bottom: 48px;
+}
+.ban_main p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(40, 41, 56, 0.7);
+  padding-bottom: 16px;
+}
+.ban_main a {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(37, 5, 242, 0.7);
+}
+/* banner part end */
+
+/* blog part start */
+#blog {
+  padding: 128px 0;
+}
+.blog_head h2 {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 600;
+  color: #282938;
+  padding-bottom: 48px;
+}
+.blog_main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 60px 24px;
+}
+.blog_body {
+  width: 32%;
+}
+.body_item img {
+  width: 100%;
+  padding-bottom: 32px;
+}
+.body_item span {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(40, 41, 56, 0.703);
+}
+.body_item h6 {
+  padding: 16px 0;
+  font-size: 24px;
+  font-weight: 500;
+  color: #282938;
+}
+.body_item p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(40, 41, 56, 0.703);
+  padding-bottom: 24px;
+}
+.body_item a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #1c1e53;
+}
+.body_item a img {
+  width: 24px;
+  padding-bottom: 0;
+  padding-left: 12px;
+}
+/* blog part end */
+
+/* footer body part start */
+#footer_body {
+  padding-top: 96px;
+  background-color: #1c1e53;
+}
+.footer_body_main {
+  display: flex;
+  gap: 0 259px;
+}
+
+.fo_ma_left img {
+  padding-top: 8px;
+  padding-bottom: 24px;
+}
+.fo_ma_left p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.809);
+}
+
+.fo_ma_right h2 {
+  font-size: 48px;
+  font-weight: 600;
+  color: #fff;
+  padding-bottom: 14px;
+}
+.fo_ma_right p {
+  font-size: 16px;
+  font-weight: 500;
+  color: rgba(244, 246, 252, 0.805);
+  padding-bottom: 28px;
+}
+.fo_ma_right .fa-twitter {
+  padding: 0 26px;
+}
+.fo_ma_right .fa-instagram {
+  padding-right: 26px;
+}
+.footer_body_bottom {
+  height: 95px;
+  width: 517px;
+  background-color: #fcd980;
+  display: flex;
+  gap: 0 29px;
+  align-items: center;
+}
+.body_bottom_left {
+  padding-left: 37px;
+}
+.footer_body_bottom h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #282938;
+  padding-bottom: 2px;
+}
+.footer_body_bottom p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgba(40, 41, 56, 0.8);
+}
+/* footer body part end */
+
+/* footer part start */
+#footer {
+  height: 92px;
+}
+.footer_main {
+  height: 92px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer_copyright p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+}
+.footer_menu ul {
+  display: flex;
+  gap: 32px;
+}
+.footer_menu ul li a {
+  font-size: 16px;
+  font-weight: 500;
+  color: #282938;
+}
+/* footer part end */
