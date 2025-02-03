@@ -93,6 +93,7 @@ body {
   border-radius: 12px;
   transition: 0.5s;
   position: relative;
+  overflow: hidden;
 }
 
 .price_item .price {
@@ -199,7 +200,7 @@ body {
   height: 1151px;
   width: 1151px;
   border-radius: 100%;
-  top: -84%;
+  top: -86%;
   left: -105%;
   opacity: 0.06;
   transition: 0.05s;
